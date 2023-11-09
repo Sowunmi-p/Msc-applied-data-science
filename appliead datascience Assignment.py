@@ -163,7 +163,7 @@ print(df.head())
 
 
 """
-1st Visualization
+1st Visualisation
 Creating a new variable that shows the number of each race killed by police 
 in each month.
 """
@@ -188,7 +188,7 @@ count of each raceethnicity"""
 
 
 """
-2st Visualization
+2st Visualisation
 Creating a new variable that shows that count the  number of each 
 raceethnicity that got killed by police 
 """
@@ -204,7 +204,7 @@ print(plot_total_race_values(total_race_values,
 
 
 """
-3rd Visualization
+3rd Visualisation
 """
 # Replace "Unknown" values in the age column with 0
 df["age"] = df["age"].replace(["Unknown"], 25)
