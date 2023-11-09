@@ -66,9 +66,9 @@ define a function (plot_total_value_race) to plot a bar graph for the total
  """
 
 
-def plot_total_race_value(data, title='', xlabel='', ylabel=''):
+def plot_total_race_values(data, title='', xlabel='', ylabel=''):
     """
-    Plot total_race_value data using Matplotlib.
+    Plot total_race_values data using Matplotlib.
 
     Parameters:
     data is  DataFrame containing the data.
