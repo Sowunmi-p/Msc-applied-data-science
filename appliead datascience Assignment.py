@@ -66,9 +66,9 @@ define a function (plot_total_value_race) to plot a bar graph for the total
  """
 
 
-def plot_total_value_race(data, title='', xlabel='', ylabel=''):
+def plot_total_race_value(data, title='', xlabel='', ylabel=''):
     """
-    Plot total_value_race data using Matplotlib.
+    Plot total_race_value data using Matplotlib.
 
     Parameters:
     data is  DataFrame containing the data.
@@ -101,7 +101,7 @@ killed by police
 
 def plot_age_distribution(data, xlabel='', ylabel=''):
     """
-    Plot total_value_race data using Matplotlib.
+    Plot age distribution data using Matplotlib.
 
     Parameters:
     data is  DataFrame containing the data.
@@ -194,11 +194,11 @@ raceethnicity that got killed by police
 """
 
 # created a new variable for the value count of all race/ethnicities
-total_value_race = df["raceethnicity"].value_counts()
+total_race_values = df["raceethnicity"].value_counts()
 print("The value count of each raceethnicity:", total_value_race)
 
-# Called the function with my variable(total_value_race)
-print(plot_total_value_race(total_value_race,
+# Called the function with my variable(total_race_value)
+print(plot_total_race_values(total_race_values,
                       title='The Total Number of Each Race/Ethnicity',
                       xlabel='raceethnicity', ylabel='Values'))
 
