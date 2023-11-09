@@ -195,9 +195,9 @@ raceethnicity that got killed by police
 
 # created a new variable for the value count of all race/ethnicities
 total_race_values = df["raceethnicity"].value_counts()
-print("The value count of each raceethnicity:", total_value_race)
+print("The value count of each raceethnicity:", total_race_values)
 
-# Called the function with my variable(total_race_value)
+# Called the function with my variable(total_race_values)
 print(plot_total_race_values(total_race_values,
                       title='The Total Number of Each Race/Ethnicity',
                       xlabel='raceethnicity', ylabel='Values'))
